@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naruto Spotify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li class="brand"> <img src="Logo.jpg" alt="Naruto Spotify"><span>Mr.Pro</span> </li>
+            <li>
+                 Home
+            </li>
+            <li>
+               <a href="https://mrpro9420.github.io/NewWebsite.github.io/" >About</a> 
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container">
+
+        <div class="songList">
+            <h1>PlayList</h1>
+
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="covers/cover1.jpg" alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songListplay"> <span class="timeStamp"> <i id="1" class="songPlay fa-regular   fa-circle-play"></i> </span>  </span>
+
+                </div>
+                <div class="songItem">
+                    <img alt="2">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songListplay"> <span class="timeStamp"> <i id="2" class="songPlay fa-regular   fa-circle-play"></i> </span>  </span>
+
+                </div>
+                <div class="songItem">
+                    <img alt="3">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songListplay"> <span class="timeStamp"> <i id="3" class="songPlay fa-regular   fa-circle-play"></i> </span>  </span>
+
+                </div>
+                <div class="songItem">
+                    <img alt="4">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songListplay"> <span class="timeStamp"> <i id="4" class="songPlay fa-regular   fa-circle-play"></i> </span>  </span>
+
+                </div>
+                <div class="songItem">
+                    <img alt="5">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songListplay"> <span class="timeStamp"> <i id="5" class="songPlay fa-regular   fa-circle-play"></i> </span>  </span>
+
+                </div>
+                <div class="songItem">
+                    <img alt="6">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songListplay"> <span class="timeStamp"> <i id="6" class="songPlay fa-regular   fa-circle-play"></i> </span>  </span>
+
+                </div>
+                <div class="songItem">
+                    <img alt="7">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songListplay"> <span class="timeStamp"> <i id="7" class="songPlay fa-regular   fa-circle-play"></i> </span>  </span>
+
+                </div>
+            </div>
+            
+        </div>
+        <div class="songBanner"></div>
+
+    </div>
+
+    <div class="bottom">
+        <input type="range" id="progressBar" min="0" max="100" value="0">
+        <div class="icon">
+            <!-- Font Icon -->
+            <i class="fa-solid fa-2x fa-backward" id="privious"></i>
+            <i class="fa-regular fa-2x  fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid  fa-2x fa-forward" id="next"></i>
+        </div>
+        <div class="songInfo"> 
+            <img src="playing.gif" width="70px" id="gif"> <span id="masterSongName">Let Me Love You - Justine Beaber</span> 
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/bd112b7b09.js" crossorigin="anonymous"></script>
+</body>
+</html>
